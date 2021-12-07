@@ -6,7 +6,7 @@ import Sidebar from '../components/Sidebar.js';
 
 export default function Home() {
 	return (
-		<div className="bg-black overflow-hidden">
+		<div className="bg-black h-screen overflow-hidden">
 			<Head>
 				<title>Spotify 2.0</title>
 				<link rel="icon" href="/favicon.ico" />
@@ -19,7 +19,7 @@ export default function Home() {
 				<Center />
 			</main>
 			
-			<div>
+			<div className="sticky bottom-0">
 				{/* Player */}
 				<Player />
 			</div>
