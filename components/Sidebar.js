@@ -24,7 +24,7 @@ const Sidebar = () => {
 	
 	return (
 		<div
-			className="text-gray-500 p-5 text-xs border-r border-gray-900 overflow-y-scroll h-screen scrollbar-hide lg:text-sm sm:max-w-[12rem] lg:max-w-[15rem] hidden md:inline-flex">
+			className="text-gray-500 p-5 text-xs border-r border-gray-900 overflow-y-scroll h-screen scrollbar-hide lg:text-sm sm:max-w-[12rem] lg:max-w-[15rem] hidden md:inline-flex pb-36">
 			<div className="space-y-4">
 				<button className="flex items-center space-x-2 hover:text-white">
 					<FontAwesomeIcon icon={faHouseBlank} className="h-5 w-5" />
@@ -46,11 +46,11 @@ const Sidebar = () => {
 					<p>Create Playlist</p>
 				</button>
 				<button className="flex items-center space-x-2 hover:text-white">
-					<FontAwesomeIcon icon={faSquareHeart} className="h-5 w-5" />
+					<FontAwesomeIcon icon={faSquareHeart} className="h-5 w-5 text-blue-500" />
 					<p>Liked Songs</p>
 				</button>
 				<button className="flex items-center space-x-2 hover:text-white">
-					<FontAwesomeIcon icon={faSquareRss} className="h-5 w-5" />
+					<FontAwesomeIcon icon={faSquareRss} className="h-5 w-5 text-green-300" />
 					<p>Your Episodes</p>
 				</button>
 				
